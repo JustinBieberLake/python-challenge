@@ -15,7 +15,7 @@ with open(csvpath) as csvfile:
     csvreader=csv.reader(csvfile)
     
     # Header
-    csvheader =next(csvfile)
+    csvheader=next(csvfile)
 
     # Lists for Columns
     for row in csvreader:
