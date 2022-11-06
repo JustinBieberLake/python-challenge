@@ -42,7 +42,7 @@ print(f"Greatest Decrease in Profits: {totalmonths[profitlosses.index(min(profit
 print('\n')
 
 # Export Text File
-outputpath=os.path.join("analysis", "budget_analysis.txt")
+outputpath=os.path.join("PyBank","Analysis", "budget_analysis.txt")
 with open (outputpath, 'w') as csvfile:
     csvwriter=csv.writer(csvfile)
     csvwriter.writerow(['Financial Analysis'])
